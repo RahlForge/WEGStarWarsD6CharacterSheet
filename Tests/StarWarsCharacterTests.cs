@@ -44,20 +44,39 @@ namespace WEGSWD6CSLib.Tests
         }
 
         [Fact]
-        public void HasNumericAge()
+        public void HasEditableNumericAge()
         {
-            Assert.IsType<int>(sw.Age);
-        }
-
-        //TODO: Test that Age can be set
-        [Fact]
-        public void CanEditAge()
-        {
-            var age = 20;
-            sw.Age = age;            
+            var age = 16;
+            sw.Age = age;
             Assert.True(sw.Age == age);
         }
 
-        //TODO: Test that Age can only be positive 
+        [Theory]
+        [InlineData(-1)]
+        [InlineData(-10)]
+        [InlineData(-100)]
+        [InlineData(-1000)]
+        public void DoesNotAllowNegativeAges(int negative)
+        {
+            Assert.Throws<ArgumentOutOfRangeException>(() => sw.Age = negative);
+        }
+
+        [Fact]       
+        public void HasEditableDecimalHeight()
+        {
+            var height = 1.2m;
+            sw.Height = height;
+            Assert.True(sw.Height == height);
+        }
+
+        [Theory]
+        [InlineData(-1)]
+        [InlineData(-10)]
+        [InlineData(-100)]
+        [InlineData(-1000)]
+        public void DoesNotAllowNegativeHeight(int negative)
+        {
+            Assert.Throws<ArgumentOutOfRangeException>(() => sw.Height = negative);
+        }
     }
 }

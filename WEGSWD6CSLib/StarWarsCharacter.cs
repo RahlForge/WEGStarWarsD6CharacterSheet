@@ -11,8 +11,19 @@ namespace WEGSWD6CSLib
         public string Gender { get; set; }
 
         public StarWarsSpecies Species { get; set; }
+        
+        private int age;
+        public int Age { 
+            get { return age; } 
+            set {
+                if (value < 0)
+                    throw new ArgumentOutOfRangeException("Age cannot be less than 0");
+                else
+                    age = value;
+            }
+        }
 
-        public int Age { get; set; }
+        public decimal Height { get; set; }
 
         public StarWarsCharacter() {}
     }
