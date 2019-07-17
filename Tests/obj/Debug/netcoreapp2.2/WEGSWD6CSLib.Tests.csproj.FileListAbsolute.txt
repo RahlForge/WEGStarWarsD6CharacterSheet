@@ -1,0 +1,17 @@
+j:\repos\WEGStarWarsD6CharacterSheet\Tests\obj\Debug\netcoreapp2.2\WEGSWD6CSLib.Tests.csprojAssemblyReference.cache
+j:\repos\WEGStarWarsD6CharacterSheet\Tests\obj\Debug\netcoreapp2.2\WEGSWD6CSLib.Tests.csproj.CoreCompileInputs.cache
+j:\repos\WEGStarWarsD6CharacterSheet\Tests\obj\Debug\netcoreapp2.2\WEGSWD6CSLib.Tests.AssemblyInfoInputs.cache
+j:\repos\WEGStarWarsD6CharacterSheet\Tests\obj\Debug\netcoreapp2.2\WEGSWD6CSLib.Tests.AssemblyInfo.cs
+j:\repos\WEGStarWarsD6CharacterSheet\Tests\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+j:\repos\WEGStarWarsD6CharacterSheet\Tests\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+j:\repos\WEGStarWarsD6CharacterSheet\Tests\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+j:\repos\WEGStarWarsD6CharacterSheet\Tests\bin\Debug\netcoreapp2.2\WEGSWD6CSLib.Tests.deps.json
+j:\repos\WEGStarWarsD6CharacterSheet\Tests\bin\Debug\netcoreapp2.2\WEGSWD6CSLib.Tests.runtimeconfig.json
+j:\repos\WEGStarWarsD6CharacterSheet\Tests\bin\Debug\netcoreapp2.2\WEGSWD6CSLib.Tests.runtimeconfig.dev.json
+j:\repos\WEGStarWarsD6CharacterSheet\Tests\bin\Debug\netcoreapp2.2\WEGSWD6CSLib.Tests.dll
+j:\repos\WEGStarWarsD6CharacterSheet\Tests\bin\Debug\netcoreapp2.2\WEGSWD6CSLib.Tests.pdb
+j:\repos\WEGStarWarsD6CharacterSheet\Tests\bin\Debug\netcoreapp2.2\WEGSWD6CSLib.dll
+j:\repos\WEGStarWarsD6CharacterSheet\Tests\bin\Debug\netcoreapp2.2\WEGSWD6CSLib.pdb
+j:\repos\WEGStarWarsD6CharacterSheet\Tests\obj\Debug\netcoreapp2.2\WEGSWD6CSLib.Tests.csproj.CopyComplete
+j:\repos\WEGStarWarsD6CharacterSheet\Tests\obj\Debug\netcoreapp2.2\WEGSWD6CSLib.Tests.dll
+j:\repos\WEGStarWarsD6CharacterSheet\Tests\obj\Debug\netcoreapp2.2\WEGSWD6CSLib.Tests.pdb
