@@ -7,3 +7,12 @@ j:\repos\WEGStarWarsD6CharacterSheet\WEGSWD6CSLib\obj\Debug\netstandard2.0\WEGSW
 j:\repos\WEGStarWarsD6CharacterSheet\WEGSWD6CSLib\obj\Debug\netstandard2.0\WEGSWD6CSLib.AssemblyInfo.cs
 j:\repos\WEGStarWarsD6CharacterSheet\WEGSWD6CSLib\obj\Debug\netstandard2.0\WEGSWD6CSLib.dll
 j:\repos\WEGStarWarsD6CharacterSheet\WEGSWD6CSLib\obj\Debug\netstandard2.0\WEGSWD6CSLib.pdb
+c:\Users\David\repos\WEGStarWarsD6CharacterSheet\WEGSWD6CSLib\bin\Debug\netstandard2.0\WEGSWD6CSLib.deps.json
+c:\Users\David\repos\WEGStarWarsD6CharacterSheet\WEGSWD6CSLib\bin\Debug\netstandard2.0\WEGSWD6CSLib.dll
+c:\Users\David\repos\WEGStarWarsD6CharacterSheet\WEGSWD6CSLib\bin\Debug\netstandard2.0\WEGSWD6CSLib.pdb
+c:\Users\David\repos\WEGStarWarsD6CharacterSheet\WEGSWD6CSLib\obj\Debug\netstandard2.0\WEGSWD6CSLib.csprojAssemblyReference.cache
+c:\Users\David\repos\WEGStarWarsD6CharacterSheet\WEGSWD6CSLib\obj\Debug\netstandard2.0\WEGSWD6CSLib.csproj.CoreCompileInputs.cache
+c:\Users\David\repos\WEGStarWarsD6CharacterSheet\WEGSWD6CSLib\obj\Debug\netstandard2.0\WEGSWD6CSLib.AssemblyInfoInputs.cache
+c:\Users\David\repos\WEGStarWarsD6CharacterSheet\WEGSWD6CSLib\obj\Debug\netstandard2.0\WEGSWD6CSLib.AssemblyInfo.cs
+c:\Users\David\repos\WEGStarWarsD6CharacterSheet\WEGSWD6CSLib\obj\Debug\netstandard2.0\WEGSWD6CSLib.dll
+c:\Users\David\repos\WEGStarWarsD6CharacterSheet\WEGSWD6CSLib\obj\Debug\netstandard2.0\WEGSWD6CSLib.pdb

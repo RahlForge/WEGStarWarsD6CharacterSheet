@@ -34,6 +34,18 @@ namespace WEGSWD6CSLib
             }
         }
 
+        private decimal weight;
+        public decimal Weight {
+            get { return weight; }
+            set
+            {
+                if (value < 0)
+                    throw new ArgumentOutOfRangeException("Weight cannot be less than 0");
+                else
+                    weight = value;
+            }
+        }
+
         public StarWarsCharacter() {}
     }
 }

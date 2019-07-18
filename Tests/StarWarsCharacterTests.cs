@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using Xunit;
 using WEGSWD6CSLib;
 
@@ -7,6 +8,15 @@ namespace WEGSWD6CSLib.Tests
     public class StarWarsCharacterTests    
     {
         StarWarsCharacter sw = new StarWarsCharacter();
+
+        public static IEnumerable<object[]> PropertyNegatives {
+            get {
+                yield return new object[] {-1};
+                yield return new object[] {-10};
+                yield return new object[] {-100};
+                yield return new object[] {-1000};
+            }
+        }        
 
         [Fact]
         public void HasEditableCharacterName()
@@ -52,10 +62,7 @@ namespace WEGSWD6CSLib.Tests
         }
 
         [Theory]
-        [InlineData(-1)]
-        [InlineData(-10)]
-        [InlineData(-100)]
-        [InlineData(-1000)]
+        [MemberData(nameof(PropertyNegatives))]
         public void DoesNotAllowNegativeAges(int negative)
         {
             Assert.Throws<ArgumentOutOfRangeException>(() => sw.Age = negative);
@@ -70,13 +77,25 @@ namespace WEGSWD6CSLib.Tests
         }
 
         [Theory]
-        [InlineData(-1)]
-        [InlineData(-10)]
-        [InlineData(-100)]
-        [InlineData(-1000)]
+        [MemberData(nameof(PropertyNegatives))]
         public void DoesNotAllowNegativeHeight(int negative)
         {
             Assert.Throws<ArgumentOutOfRangeException>(() => sw.Height = negative);
+        }
+
+        [Fact]
+        public void HasEditableDecimalWeight()
+        {
+            var weight = 54.5m;
+            sw.Weight = weight;
+            Assert.True(sw.Weight == weight);
+        }
+
+        [Theory]
+        [MemberData(nameof(PropertyNegatives))]
+        public void DoesNotAllowNegativeWeight(int negative)
+        {
+            Assert.Throws<ArgumentOutOfRangeException>(() => sw.Weight = negative);
         }
     }
 }
