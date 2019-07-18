@@ -21,9 +21,18 @@ namespace WEGSWD6CSLib
                 else
                     age = value;
             }
-        }
+        }    
 
-        public decimal Height { get; set; }
+        private decimal height;
+        public decimal Height { 
+            get { return height; }
+            set {
+                if (value < 0)
+                    throw new ArgumentOutOfRangeException("Height cannot be less than 0");
+                else
+                    height = value;
+            }
+        }
 
         public StarWarsCharacter() {}
     }
