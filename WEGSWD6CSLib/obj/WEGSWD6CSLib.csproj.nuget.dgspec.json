@@ -1,26 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\David\\repos\\WEGStarWarsD6CharacterSheet\\WEGSWD6CSLib\\WEGSWD6CSLib.csproj": {}
+    "j:\\repos\\WEGStarWarsD6CharacterSheet\\WEGSWD6CSLib\\WEGSWD6CSLib.csproj": {}
   },
   "projects": {
-    "c:\\Users\\David\\repos\\WEGStarWarsD6CharacterSheet\\WEGSWD6CSLib\\WEGSWD6CSLib.csproj": {
+    "j:\\repos\\WEGStarWarsD6CharacterSheet\\WEGSWD6CSLib\\WEGSWD6CSLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\David\\repos\\WEGStarWarsD6CharacterSheet\\WEGSWD6CSLib\\WEGSWD6CSLib.csproj",
+        "projectUniqueName": "j:\\repos\\WEGStarWarsD6CharacterSheet\\WEGSWD6CSLib\\WEGSWD6CSLib.csproj",
         "projectName": "WEGSWD6CSLib",
-        "projectPath": "c:\\Users\\David\\repos\\WEGStarWarsD6CharacterSheet\\WEGSWD6CSLib\\WEGSWD6CSLib.csproj",
-        "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\David\\repos\\WEGStarWarsD6CharacterSheet\\WEGSWD6CSLib\\obj\\",
+        "projectPath": "j:\\repos\\WEGStarWarsD6CharacterSheet\\WEGSWD6CSLib\\WEGSWD6CSLib.csproj",
+        "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
+        "outputPath": "j:\\repos\\WEGStarWarsD6CharacterSheet\\WEGSWD6CSLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"

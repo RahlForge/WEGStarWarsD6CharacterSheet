@@ -46,6 +46,8 @@ namespace WEGSWD6CSLib
             }
         }
 
+        public string Description { get; set; }
+
         public StarWarsCharacter() {}
     }
 }

@@ -5,11 +5,11 @@ The Character Sheet should have or allow the user to do the following:
 • Enter a Type as free text
 • Enter a Gender as free text
 • Select a Species from a predetermined list. Each Species should have:
-    • A set of base Ability scores as Die Bonuses in the format: Xd+B where X is a number of six-sided dice, and B is a static "pip" bonus from 1 to 3    
-    • A number of Attribute Dice for customization of abilities
+    • A set of base Attribute scores as Die Bonuses in the format: Xd+B where X is a number of six-sided dice, and B is a static "pip" bonus from 1 to 3    
+    • A number of Attribute Dice for customization of Attributes
     • A basic, physical Description
     • A possible set of Special Skills
-    • A possible set of Special Abilities, which may or may not include Die Bonuses to Skills and Abilities    
+    • A possible set of Special Attributes, which may or may not include Die Bonuses to Skills and Attributes    
     • A base Move speed in meters
     • A base Size in meters
     • A text blurb for Story Factors that might be useful for roleplay
@@ -21,8 +21,8 @@ The Character Sheet should have or allow the user to do the following:
     • Provide a tooltip converting pounds to kg?
 • Enter a Description as freeform text
     • character limit on field?
-• An array of Abilities, with the following ability names: Dexterity, Knowledge, Mechanical, Perception, Strength, and Technical
-    • Each Ability should have a base Die Bonus in the format: Xd+B where X is a number of six-sided dice, and B is a static "pip" bonus from 1 to 3
-    • Each Ability's Die bonus should default to the selected Species' stats, unless the recommended set was selected
-    • 
+• An array of Attributes, with the following Attribute names: Dexterity, Knowledge, Mechanical, Perception, Strength, and Technical
+    • Each Attribute should have a base Die Bonus in the format: Xd+B where X is a number of six-sided dice, and B is a static "pip" bonus from 1 to 3
+    • Each Attribute's Die bonus should default to the selected Species' stats, unless the recommended set was selected
+    • If an Attribute's Bonus is greater than 3, the bonus is reset to 0 and the number of dice increments by 1
 

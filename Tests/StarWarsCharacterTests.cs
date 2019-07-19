@@ -7,7 +7,7 @@ namespace WEGSWD6CSLib.Tests
 {
     public class StarWarsCharacterTests    
     {
-        StarWarsCharacter sw = new StarWarsCharacter();
+        StarWarsCharacter sw = new StarWarsCharacter();      
 
         public static IEnumerable<object[]> PropertyNegatives {
             get {
@@ -16,7 +16,7 @@ namespace WEGSWD6CSLib.Tests
                 yield return new object[] {-100};
                 yield return new object[] {-1000};
             }
-        }        
+        }           
 
         [Fact]
         public void HasEditableCharacterName()
@@ -96,6 +96,14 @@ namespace WEGSWD6CSLib.Tests
         public void DoesNotAllowNegativeWeight(int negative)
         {
             Assert.Throws<ArgumentOutOfRangeException>(() => sw.Weight = negative);
+        }
+
+        [Fact]
+        public void HasEditableDescription()
+        {
+            var description = "Brash Smuggler";
+            sw.Description = description;
+            Assert.True(sw.Description == description);
         }
     }
 }
