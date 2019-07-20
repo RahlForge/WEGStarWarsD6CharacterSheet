@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 namespace WEGSWD6CSLib {
     public class StarWarsAttribute: StarWarsD6Score {
-        public StarWarsAttribute(string name): base(name) {}
+        public StarWarsAttribute(string name): base(name) {}        
     }
 
     public class StarWarsAttributes {

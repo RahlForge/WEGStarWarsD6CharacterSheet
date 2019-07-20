@@ -21,7 +21,7 @@ namespace WEGSWD6CSLib
                 else
                     age = value;
             }
-        }    
+        }
 
         private decimal height;
         public decimal Height { 

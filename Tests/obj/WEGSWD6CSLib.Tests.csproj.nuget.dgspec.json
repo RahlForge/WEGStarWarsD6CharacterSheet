@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "j:\\repos\\WEGStarWarsD6CharacterSheet\\Tests\\WEGSWD6CSLib.Tests.csproj": {}
+    "e:\\repos\\WEGStarWarsD6CharacterSheet\\Tests\\WEGSWD6CSLib.Tests.csproj": {}
   },
   "projects": {
-    "j:\\repos\\WEGStarWarsD6CharacterSheet\\Tests\\WEGSWD6CSLib.Tests.csproj": {
+    "e:\\repos\\WEGStarWarsD6CharacterSheet\\Tests\\WEGSWD6CSLib.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "j:\\repos\\WEGStarWarsD6CharacterSheet\\Tests\\WEGSWD6CSLib.Tests.csproj",
+        "projectUniqueName": "e:\\repos\\WEGStarWarsD6CharacterSheet\\Tests\\WEGSWD6CSLib.Tests.csproj",
         "projectName": "WEGSWD6CSLib.Tests",
-        "projectPath": "j:\\repos\\WEGStarWarsD6CharacterSheet\\Tests\\WEGSWD6CSLib.Tests.csproj",
-        "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-        "outputPath": "j:\\repos\\WEGStarWarsD6CharacterSheet\\Tests\\obj\\",
+        "projectPath": "e:\\repos\\WEGStarWarsD6CharacterSheet\\Tests\\WEGSWD6CSLib.Tests.csproj",
+        "packagesPath": "C:\\Users\\rahlf\\.nuget\\packages\\",
+        "outputPath": "e:\\repos\\WEGStarWarsD6CharacterSheet\\Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "E:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\rahlf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -30,8 +32,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "j:\\repos\\WEGStarWarsD6CharacterSheet\\WEGSWD6CSLib\\WEGSWD6CSLib.csproj": {
-                "projectPath": "j:\\repos\\WEGStarWarsD6CharacterSheet\\WEGSWD6CSLib\\WEGSWD6CSLib.csproj"
+              "e:\\repos\\WEGStarWarsD6CharacterSheet\\WEGSWD6CSLib\\WEGSWD6CSLib.csproj": {
+                "projectPath": "e:\\repos\\WEGStarWarsD6CharacterSheet\\WEGSWD6CSLib\\WEGSWD6CSLib.csproj"
               }
             }
           }
@@ -72,21 +74,23 @@
         }
       }
     },
-    "j:\\repos\\WEGStarWarsD6CharacterSheet\\WEGSWD6CSLib\\WEGSWD6CSLib.csproj": {
+    "e:\\repos\\WEGStarWarsD6CharacterSheet\\WEGSWD6CSLib\\WEGSWD6CSLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "j:\\repos\\WEGStarWarsD6CharacterSheet\\WEGSWD6CSLib\\WEGSWD6CSLib.csproj",
+        "projectUniqueName": "e:\\repos\\WEGStarWarsD6CharacterSheet\\WEGSWD6CSLib\\WEGSWD6CSLib.csproj",
         "projectName": "WEGSWD6CSLib",
-        "projectPath": "j:\\repos\\WEGStarWarsD6CharacterSheet\\WEGSWD6CSLib\\WEGSWD6CSLib.csproj",
-        "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-        "outputPath": "j:\\repos\\WEGStarWarsD6CharacterSheet\\WEGSWD6CSLib\\obj\\",
+        "projectPath": "e:\\repos\\WEGStarWarsD6CharacterSheet\\WEGSWD6CSLib\\WEGSWD6CSLib.csproj",
+        "packagesPath": "C:\\Users\\rahlf\\.nuget\\packages\\",
+        "outputPath": "e:\\repos\\WEGStarWarsD6CharacterSheet\\WEGSWD6CSLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "E:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\rahlf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"

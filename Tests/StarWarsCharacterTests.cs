@@ -21,8 +21,9 @@ namespace WEGSWD6CSLib.Tests
         [Fact]
         public void HasEditableCharacterName()
         {
+            sw.CharacterName = "Luke Skywalker"; 
             sw.CharacterName = "Han Solo";
-            Assert.True(sw.CharacterName != "");
+            Assert.True(sw.CharacterName == "Han Solo");
         }
 
         [Fact]
