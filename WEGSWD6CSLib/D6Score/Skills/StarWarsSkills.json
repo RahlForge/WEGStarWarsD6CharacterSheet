@@ -1,0 +1,9 @@
+{    
+    "skill": {
+        "name":"Archaic Guns",
+        "attribute":"Dexterity",
+        "timeTaken":"One Round",
+        "specializations":"Indicates a specific kind or model of archaic gun - black powder pistol, matchlock, musket, wheelock",
+        "description":"Description of the skill"
+    }
+}

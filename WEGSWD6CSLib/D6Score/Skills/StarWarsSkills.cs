@@ -17,11 +17,10 @@ namespace WEGSWD6CSLib {
 
         public Dictionary<SkillKeys, string> SkillNames =
             new Dictionary<SkillKeys, string> {
-
+                {SkillKeys.ArchaicGuns, "Archaic Guns"},
             };
         
         public StarWarsSkills() {
-
         }
     }
 }
